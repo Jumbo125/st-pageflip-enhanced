@@ -215,6 +215,35 @@ Die folgenden Attribute können im `<div class="ui-flipbook">` angegeben werden,
 **Hinweis zur Formatwahl:**  
 Wenn du `data-din_format` angibst (z. B. `"A4"`, `"16:9"`), wird automatisch das passende Seitenverhältnis geladen. Falls **weder** `data-din_format` **noch** `data-aspect_ratio` gesetzt ist, verwendet das Plugin den Standardwert `0.707`, was etwa dem Verhältnis von DIN A4 Hochformat entspricht.
 
+### 📐 Supported `din_format` Values
+
+| Name              | Aspect Ratio | Type               |
+|-------------------|--------------|--------------------|
+| A0                | 0.707        | DIN A (portrait)   |
+| A1                | 0.706        | DIN A (portrait)   |
+| A2                | 0.707        | DIN A (portrait)   |
+| A3                | 0.707        | DIN A (portrait)   |
+| A4                | 0.707        | DIN A (portrait)   |
+| A5                | 0.705        | DIN A (portrait)   |
+| A6                | 0.709        | DIN A (portrait)   |
+| A7                | 0.705        | DIN A (portrait)   |
+| A8                | 0.703        | DIN A (portrait)   |
+| 16:9              | 1.778        | Screen / Video     |
+| 4:3               | 1.333        | Screen / Video     |
+| 3:2               | 1.500        | Screen / Video     |
+| 21:9              | 2.333        | Ultra-Wide         |
+| 1:1               | 1.000        | Square             |
+| 9:16              | 0.562        | Vertical / Mobile  |
+| 5x7               | 0.714        | Photo              |
+| 8x10              | 0.800        | Photo              |
+| 2:3               | 0.667        | Photo              |
+| Portrait Standard | 0.707        | Flipbook Classic   |
+| Comic/Manga       | 0.650        | Flipbook Classic   |
+| Square            | 1.000        | Flipbook Classic   |
+| Wide Book         | 1.400        | Flipbook Classic   |
+
+> 💡 Benutze `din_format="A4"` oder einen anderen Wert aus der Liste, um automatisch die korrekte auflösung zu wählen
+
 ---
 
 
@@ -428,3 +457,32 @@ The following attributes can be used in `<div class="ui-flipbook">` to individua
 
 **Note on format selection:**  
 If you specify `data-din_format` (e.g. `"A4"`, `"16:9"`), the appropriate aspect ratio is automatically applied. If **neither** `data-din_format` **nor** `data-aspect_ratio` is set, the plugin uses the default value `0.707`, which roughly corresponds to DIN A4 portrait format.
+
+### 📐 Supported `din_format` Values
+
+| Name              | Aspect Ratio | Type               |
+|-------------------|--------------|--------------------|
+| A0                | 0.707        | DIN A (portrait)   |
+| A1                | 0.706        | DIN A (portrait)   |
+| A2                | 0.707        | DIN A (portrait)   |
+| A3                | 0.707        | DIN A (portrait)   |
+| A4                | 0.707        | DIN A (portrait)   |
+| A5                | 0.705        | DIN A (portrait)   |
+| A6                | 0.709        | DIN A (portrait)   |
+| A7                | 0.705        | DIN A (portrait)   |
+| A8                | 0.703        | DIN A (portrait)   |
+| 16:9              | 1.778        | Screen / Video     |
+| 4:3               | 1.333        | Screen / Video     |
+| 3:2               | 1.500        | Screen / Video     |
+| 21:9              | 2.333        | Ultra-Wide         |
+| 1:1               | 1.000        | Square             |
+| 9:16              | 0.562        | Vertical / Mobile  |
+| 5x7               | 0.714        | Photo              |
+| 8x10              | 0.800        | Photo              |
+| 2:3               | 0.667        | Photo              |
+| Portrait Standard | 0.707        | Flipbook Classic   |
+| Comic/Manga       | 0.650        | Flipbook Classic   |
+| Square            | 1.000        | Flipbook Classic   |
+| Wide Book         | 1.400        | Flipbook Classic   |
+
+> 💡 Use `din_format="A4"` (or any name from this list) to auto-set the aspect ratio.
