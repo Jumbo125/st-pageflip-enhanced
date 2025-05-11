@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/Jumbo125/st-pageflip-enhanced/blob/main/a080723b-e63e-49d4-a9e1-f0487cf1188b.png" alt="st-pageflip-enhanced" width="300">
+</p>
 # 📖 Erweiterung für st_pageflip: Benutzerdefinierte Steuerung und Funktionen
 
 Dieses Plugin erweitert die Bibliothek **st_pageflip** um eine benutzerdefinierte Steuerleiste, Vollbildmodus, Zoomfunktionen, Seitenreflexionen, Mousewheel-Support, Sound-Effekte und viele weitere visuelle Features.
