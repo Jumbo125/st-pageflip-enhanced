@@ -23,17 +23,24 @@ Dieses Plugin erweitert die Bibliothek **st_pageflip** um eine benutzerdefiniert
 project-root/
 │
 ├── js/
-│   ├── st_pageflip_custom.js       # Deine modifizierte st_pageflip Datei
-│   └── page-flip_controll.js       # Dein Plugin-Skript (dieses Repository)
+│   ├── page-flip.browser.unmin.js  # Deine modifizierte st_pageflip Datei
+│   ├── page-flip_controll.js       # Plugin-Skript (dieses Repository)
+|   ├── jquery.js                   # jQuery notwenid
+│   ├── jquery-ui.min.js            # jQuery ui für draggable
+|   └── panzoom.min.js              # Panzoom.js für Zoom
 │
 ├── php/
-│   └── request.php                 # Gibt Bild-Dateinamen im angegebenen Ordner zurück
+│   └── request.php                 # Returns image filenames in the specified folder
 │
 ├── mp3/
-│   └── turn.mp3                    # Blätter-Sound (optional)
+│   └── turn.mp3                    # Page flip sound (optional)
 │
 ├── css/
-│   └── styles.css                  # Enthält Zusatz-Styles für Steuerung & Effekte
+│   ├── stPageFlip.css              # Pageflip css 
+│   ├── bootstrap.css               # Bootstrap css
+│   ├── custom.css                  # eigenes Styling Additional styles for controls & effects
+├── css/bootsrap-ico
+│         ├── #divese Daten für Bootstrap icons
 ```
 
 ---
@@ -144,9 +151,17 @@ Diese Erweiterung ist **nicht offiziell** vom st_pageflip-Projekt und basiert au
 
 ## 📄 Lizenz
 
-MIT License – frei nutzbar, bitte bei Forks & Nutzung erwähnen.
 MIT License
 
+
+## 📄 Third-Party Licenses
+
+### Panzoom
+Panzoom (c) 2020 Timmy Willison  
+MIT License  
+https://github.com/timmywil/panzoom
+
+### StPageFlip
 Original library: StPageFlip
 Copyright (c) 2020 Nodlik
 https://github.com/Nodlik/StPageFlip
@@ -228,17 +243,25 @@ This plugin extends the **st_pageflip** library with a custom control bar, fulls
 project-root/
 │
 ├── js/
-│   ├── st_pageflip_custom.js       # Your modified st_pageflip file
-│   └── page-flip_controll.js       # Your plugin script (this repository)
+│   ├── page-flip.browser.unmin.js   # Your modified st_pageflip file
+│   ├── page-flip_controll.js        # Plugin script (this repository)
+│   ├── jquery.js                    # jQuery (required)
+│   ├── jquery-ui.min.js             # jQuery UI for draggable support
+│   └── panzoom.min.js               # Panzoom.js for zoom functionality
 │
 ├── php/
-│   └── request.php                 # Returns image filenames in the specified folder
+│   └── request.php                  # Returns image filenames in the specified folder
 │
 ├── mp3/
-│   └── turn.mp3                    # Page flip sound (optional)
+│   └── turn.mp3                     # Page flip sound (optional)
 │
 ├── css/
-│   └── styles.css                  # Additional styles for controls & effects
+│   ├── stPageFlip.css               # CSS styles for st_pageflip
+│   ├── bootstrap.css                # Bootstrap styles
+│   ├── custom.css                   # Your custom styles (controls, effects, etc.)
+│
+├── css/bootstrap-ico/
+│   └── # various files for Bootstrap Icons
 ```
 
 ---
@@ -348,12 +371,14 @@ This extension is **not officially affiliated** with the st_pageflip project and
 
 ## 📄 License
 
-MIT License – freely usable, please mention when forking or reusing.
+### Panzoom
+Panzoom (c) 2020 Timmy Willison  
+MIT License  
+https://github.com/timmywil/panzoom
 
-MIT License
-
-Original library: StPageFlip  
-Copyright (c) 2020 Nodlik  
+### StPageFlip
+Original library: StPageFlip
+Copyright (c) 2020 Nodlik
 https://github.com/Nodlik/StPageFlip
 
 Extended plugin functionality:  
