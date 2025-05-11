@@ -368,6 +368,7 @@ function controlls_for_book(ID, data_height, data_width, aspect_ratio, din_forma
             const rechte_seite = human_aktuelleSeite + 1;
             $controll_leiste.find('.current_page').html(linke_seite + " und " + rechte_seite);
             $controll_leiste.find('.all_sites').html(seitenanzahl);
+            $controll_leiste.find(".pdf-book-slider").val(linke_seite);
           }
           else if (human_aktuelleSeite % 2 !== 0) {
             //aktuelle seite ist eine ungarde zahl, daher ist die rechte Seite die aktuelle.  rechte Seite minus 1 für linke seite
@@ -376,6 +377,7 @@ function controlls_for_book(ID, data_height, data_width, aspect_ratio, din_forma
             const linke_seite = human_aktuelleSeite - 1;
             $controll_leiste.find('.current_page').html(linke_seite + " und " + rechte_seite);
             $controll_leiste.find('.all_sites').html(seitenanzahl);
+            $controll_leiste.find(".pdf-book-slider").val(rechte_seite);
           }
 
         }
@@ -391,6 +393,7 @@ function controlls_for_book(ID, data_height, data_width, aspect_ratio, din_forma
         $controll_leiste.find('.current_page').html(aktuelleSeite);
         $controll_leiste.find('.all_sites').html(seitenanzahl);
       }
+      $controll_leiste.find(".pdf-book-slider").val(aktuelleSeite);
 
 
     }
