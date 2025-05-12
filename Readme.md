@@ -26,7 +26,7 @@ project-root/
 │   ├── page-flip.browser.unmin.js  # Deine modifizierte st_pageflip Datei
 │   ├── page-flip_controll.js       # Plugin-Skript (dieses Repository)
 |   ├── jquery.js                   # jQuery notwenid
-│   ├── jquery-ui.min.js            # jQuery ui für draggable
+│   ├── jquery_ui_draggable.min.js  # jQuery ui für draggable
 |   └── panzoom.min.js              # Panzoom.js für Zoom
 │
 ├── php/
