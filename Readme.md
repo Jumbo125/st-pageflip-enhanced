@@ -144,8 +144,7 @@ Diese Erweiterung ist **nicht offiziell** vom st_pageflip-Projekt und basiert au
 
 ## 🧑‍💻 Autor
 
-- **Dein Name**
-- GitHub: [deinProfil](https://github.com/deinProfil)
+- **Jumbo125**
 
 ---
 
